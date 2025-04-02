@@ -231,6 +231,8 @@ public class VelocityServer implements ProxyServer, ForwardingAudience {
       "console", "cm", "configuration"})
   void start() {
     logger.info("Booting up {} {}...", getVersion().getName(), getVersion().getVersion());
+    logger.info("BHAI THIS SERVER JAR IS FORKED BY HALFSWEATER! IF YOU WANT MORE INFO MESSAGE ME ON DISCORD! DISCORD: @halfsweater");
+
     console.setupStreams();
     pluginManager.registerPlugin(this.createVirtualPlugin());
 
